@@ -1,12 +1,10 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Medula+One&display=swap');
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 
 
-/*
+
 @font-face {
   font-family: 'Medula One', cursive;
   src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
@@ -23,7 +21,9 @@
   font-weight: bold;
 }
 
-*/
+body {
+
+}
 
 
 /*
@@ -92,6 +92,141 @@ Couleur dorée : #af966d
 
 /* DIVIDER */
 
+/*  {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: 'Ravenna'; 
+}*/
+.navbar  {
+
+  background-color: #b1956d;
+  color: #000;
+  top: 0;
+ 
+}
+
+nav {
+display: flex;
+
+}
+
+
+.navbar nav a {
+  border: none;
+  text-decoration: none;
+  color: #433b29;
+ align-items: row;
+  padding: 7px;
+  font-size: 15px;
+
+
+  top: -105px;
+  left: 500px;
+
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: 25px;
+}
+
+.navbar nav img {
+  position: relative;
+  top: 13px;
+  left: 2%;
+}
+
+.navbar nav a.active {
+  border: none;
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  position: relative;
+  top: -105px;
+
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-weight: 200;
+  font-size: 25px;
+}
+
+
+
+
+/*
+.navbar nav h2 {
+  font-family: 'Libre Baskerville', serif;
+  /* position: absolute; */
+  /* top: 0; 
+
+  margin-left: 13%;
+ 
+ 
+
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: 50px;
+}
+*/
+
+.img img {
+  margin-top:82px;
+  /* background-image: url(../img/zelda-botw.jpg); */
+  width: 100%;
+}
+
+.img2 {
+  /* position: absolute;
+  right: 0; */
+  background-image: url(../img/zelda-bg_pattern_brown.png);
+  height: 100vh;
+  width: 100%;
+}
+
+.img2 h1 {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 100px;
+
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: 50px;
+}
+
+.img2 .arrow img {
+  position: absolute;
+  top: 129.5%;
+  left: 39%;
+  width: 395px;
+}
+
+.img2 p {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 130px;
+}
+
+.img2 p span {
+  color: orange;
+}
+
+.img2 .img_ {
+  position: absolute;
+  top: 150%;
+  left: 450px;
+}
+
+
+
+
 
 *, :after, :before {
   box-sizing: border-box;
@@ -138,3 +273,4 @@ left: -24px;
         transform: translateY(-50%) scaleX(-1);
 right: -24px;
 }
+
